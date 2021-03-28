@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1092638633546",
+    "project_id": "sumorobo-b4e5a",
+    "storage_bucket": "sumorobo-b4e5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092638633546:android:129477d4df1e07184b40b3",
+        "android_client_info": {
+          "package_name": "com.example.sumorobo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092638633546-sp8b0j21c2p04i8b04um57ims18lenao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGrBUYxvs0gZg3TZtYgcX1ZQgZechYcdo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092638633546-sp8b0j21c2p04i8b04um57ims18lenao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
