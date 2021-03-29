@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1015655418244",
+    "firebase_url": "https://sumorobo-bdc8e-default-rtdb.firebaseio.com",
+    "project_id": "sumorobo-bdc8e",
+    "storage_bucket": "sumorobo-bdc8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015655418244:android:b23573280ff94bd41ab5d1",
+        "android_client_info": {
+          "package_name": "com.example.sumorobo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015655418244-hmjmi0h4n4k1ug2thktqv3mvea4u7fll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjeDL2GXTgi8cxG2fWaIts5xMcC5IZrtk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015655418244-hmjmi0h4n4k1ug2thktqv3mvea4u7fll.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
