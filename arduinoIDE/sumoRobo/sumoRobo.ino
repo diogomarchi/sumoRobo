@@ -12,8 +12,8 @@
 #include <NTPClient.h>
 #include <WiFiUdp.h>
 
-#define WIFI_SSID "NET_2GNardes"   // SSID DO WIFI
-#define WIFI_PASSWORD "scania112"  // SENHA DO WIFI
+#define WIFI_SSID ""   // SSID DO WIFI
+#define WIFI_PASSWORD ""  // SENHA DO WIFI
 
 #define HOST "https://sumorobo-bdc8e-default-rtdb.firebaseio.com/"        // ID DE CONEXÃO COM FIREBASE
 #define DBKEY "AIzaSyCjlpCPwUp-vNJW7d8VxOuyGzBtQDPIy5s"     // CHAVE DE CONEXÃO COM FIREBASE
