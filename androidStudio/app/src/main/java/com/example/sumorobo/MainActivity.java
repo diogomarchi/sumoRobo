@@ -53,12 +53,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if (event.getAction() == MotionEvent.ACTION_DOWN ) {
-                    titulo.setVisibility(View.INVISIBLE);
                     dbrLeftOn.setValue(-1);
                     dbrRigthOn.setValue(1);
                     return false;
                 }else{
-                    titulo.setVisibility(View.VISIBLE);
                     dbrLeftOn.setValue(0);
                     dbrRigthOn.setValue(0);
                     return true;
@@ -72,12 +70,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if (event.getAction() == MotionEvent.ACTION_DOWN ) {
-                    titulo.setVisibility(View.INVISIBLE);
                     dbrLeftOn.setValue(1);
                     dbrRigthOn.setValue(-1);
                     return false;
                 }else{
-                    titulo.setVisibility(View.VISIBLE);
                     dbrLeftOn.setValue(0);
                     dbrRigthOn.setValue(0);
                     return true;
@@ -90,12 +86,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if (event.getAction() == MotionEvent.ACTION_DOWN ) {
-                    titulo.setVisibility(View.INVISIBLE);
                     dbrLeftOn.setValue(1);
                     dbrRigthOn.setValue(1);
                     return false;
                 }else{
-                    titulo.setVisibility(View.VISIBLE);
                     dbrLeftOn.setValue(0);
                     dbrRigthOn.setValue(0);
                     return true;
@@ -108,12 +102,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if (event.getAction() == MotionEvent.ACTION_DOWN ) {
-                    titulo.setVisibility(View.INVISIBLE);
                     dbrLeftOn.setValue(-1);
                     dbrRigthOn.setValue(-1);
                     return false;
                 }else{
-                    titulo.setVisibility(View.VISIBLE);
                     dbrLeftOn.setValue(0);
                     dbrRigthOn.setValue(0);
                     return true;
