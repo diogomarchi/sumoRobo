@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "1015655418244",
-    "firebase_url": "https://sumorobo-bdc8e-default-rtdb.firebaseio.com",
-    "project_id": "sumorobo-bdc8e",
-    "storage_bucket": "sumorobo-bdc8e.appspot.com"
+    "project_number": "1028729423657",
+    "firebase_url": "https://sumorobo-2c45b-default-rtdb.firebaseio.com",
+    "project_id": "sumorobo-2c45b",
+    "storage_bucket": "sumorobo-2c45b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1015655418244:android:b23573280ff94bd41ab5d1",
+        "mobilesdk_app_id": "1:1028729423657:android:6a78938de46a0ceb319938",
         "android_client_info": {
           "package_name": "com.example.sumorobo"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1015655418244-hmjmi0h4n4k1ug2thktqv3mvea4u7fll.apps.googleusercontent.com",
+          "client_id": "1028729423657-phmsg175lgv6qaadpsv2vt80d30vprj1.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAjeDL2GXTgi8cxG2fWaIts5xMcC5IZrtk"
+          "current_key": "AIzaSyDt1YRulWg5OOlFu5IzsTOngzESlvyNtaE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1015655418244-hmjmi0h4n4k1ug2thktqv3mvea4u7fll.apps.googleusercontent.com",
+              "client_id": "1028729423657-phmsg175lgv6qaadpsv2vt80d30vprj1.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

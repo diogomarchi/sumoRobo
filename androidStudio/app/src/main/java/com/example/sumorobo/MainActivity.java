@@ -41,11 +41,9 @@ public class MainActivity extends AppCompatActivity {
 
         // referencia ao banco e as variaveis
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference dbrRigthOn = database.getReference(
-                "rigth_on"
-        );
-        DatabaseReference dbrLeftOn = database.getReference(
-                "left_on"
+
+        DatabaseReference command = database.getReference(
+                "command"
         );
 
         // Enquanto presssiona botao esquerdo
@@ -53,12 +51,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if (event.getAction() == MotionEvent.ACTION_DOWN ) {
-                    dbrLeftOn.setValue(-1);
-                    dbrRigthOn.setValue(1);
+                    command.setValue(2);
                     return false;
                 }else{
-                    dbrLeftOn.setValue(0);
-                    dbrRigthOn.setValue(0);
+		    command.setValue(0);
                     return true;
                 }
             }
@@ -70,12 +66,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if (event.getAction() == MotionEvent.ACTION_DOWN ) {
-                    dbrLeftOn.setValue(1);
-                    dbrRigthOn.setValue(-1);
+                    command.setValue(3);
                     return false;
                 }else{
-                    dbrLeftOn.setValue(0);
-                    dbrRigthOn.setValue(0);
+                    command.setValue(0);
                     return true;
                 }
             }
@@ -86,12 +80,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if (event.getAction() == MotionEvent.ACTION_DOWN ) {
-                    dbrLeftOn.setValue(1);
-                    dbrRigthOn.setValue(1);
+                    command.setValue(1);
                     return false;
                 }else{
-                    dbrLeftOn.setValue(0);
-                    dbrRigthOn.setValue(0);
+                    command.setValue(0);
                     return true;
                 }
             }
@@ -102,12 +94,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if (event.getAction() == MotionEvent.ACTION_DOWN ) {
-                    dbrLeftOn.setValue(-1);
-                    dbrRigthOn.setValue(-1);
+                    command.setValue(-1);
                     return false;
                 }else{
-                    dbrLeftOn.setValue(0);
-                    dbrRigthOn.setValue(0);
+                    command.setValue(0);
                     return true;
                 }
             }
